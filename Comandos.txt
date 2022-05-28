@@ -13,3 +13,4 @@ git remote add origin (link do repositorio)
 git push --set-upstream origin master 
 (definir a branch para qual será enviada,master é o nome da branch 
 principal,para onde será enviada.)
+teste
