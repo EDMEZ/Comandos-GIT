@@ -3,3 +3,13 @@ git bash here na pasta
 git init
 
 gig status
+
+git add . 
+
+git commit -m "nome do commit"
+
+git remote add origin (link do repositorio)
+
+git push --set-upstream origin master 
+(definir a branch para qual será enviada,master é o nome da branch 
+principal,para onde será enviada.)
