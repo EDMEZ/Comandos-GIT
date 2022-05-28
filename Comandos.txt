@@ -1,0 +1,5 @@
+git bash here na pasta 
+
+git init
+
+gig status
