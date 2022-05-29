@@ -4,7 +4,7 @@ git init
 
 gig status
 
-git add . 
+git add  
 
 git commit -m "nome do commit"
 
