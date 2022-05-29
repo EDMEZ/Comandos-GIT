@@ -1,0 +1,58 @@
+primeiro deve-se iniciar o git clicando botão direito  na pasta que quer 
+usar o git e mais opções e apos isso clicar git bash here
+
+apos isso o git bash abrirá na pasta e você terá de iniciar o git usando
+o comando: git init
+
+apos isso verifique o status do git e das pastas usando o comando 
+git status
+
+caso tenha algum arquivo não adicionado ou modificado use o 
+comando git add .
+
+apos isso crie uma versão do codigo como um ponto de retorno 
+usando o comando git commit -m""
+ -m serve  para digitar oq foi alterado
+
+para o comando git push dar certo é necessário usar o comando
+git push origin "link do repositorio"
+
+apos isso use  o comando git push com a url do seu repositorio 
+ex:git push https://github.com/EDMEZ/reproducao-layout
+
+apos isso basta verificar na branch master do seu repositorio
+ já no github 
+
+para trocar de branch ou analisar qual está sendo usada atualmente
+utilize o comando git branch 
+
+git branch "nome" cria uma noma branch
+ex: git branch eduardo; a branch eduardo foi criada
+
+git checkout "nome da branch já criada" troca para outra branch
+ ex: git branch checkout eduardo;trocou para a branch eduardo.
+
+
+Etapas 
+1-git pull na branch principal
+2-gerar uma nova branch a partir da branch principal
+3-adicionar novas funcionalidades na nova branch 
+4-finalizar o trabalho na branch temporaria(nova)
+5-git cehckout para branch principal
+6-git pull
+7-unir (git merge) os codigos da branch temporaria para a principal
+(depois de testar)
+8-git push na branch principal. 
+
+outro comando possivel é git checkout -b 
+"nome da nova branch" e o  nome da branch usada como base
+ex: master
+ex completo: git checkout -b sistemas-login master
+
+que troca automaticamente para sua nova branch que acaba de ser 
+criada
+
+caso vc trabalhe sozinho não compensa usar mais de 1 branch
+
+o comando git pull é para atualizar sua branch na sua maquina 
+para a versão mais recente. para não atualizar algum cdigo antigo.
